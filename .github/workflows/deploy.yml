@@ -14,3 +14,5 @@ jobs:
         run: npm run test
       - name: Build code
         run: npm run build
+      - name: Simulate deploying the code
+        run: echo "Simulating deploying..."
